@@ -15,6 +15,14 @@ const useInitialState = () => {
 
   };
 
+  const removeFromCart = (payload) => {
+    setState({
+      ...state,
+      cart: state.cart.filter
+
+    })
+  }
+
   return {
     state,
     addToCart
