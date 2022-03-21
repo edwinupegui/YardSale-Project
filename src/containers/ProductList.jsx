@@ -13,8 +13,8 @@ const ProductList = () => {
 	return (
 		<section className="main-container">
 			<div className="ProductList">
-				{products.map(product =>(
-					<ProductItem product={product} key={product.id+2} />
+				{products.map(product => (
+					<ProductItem product={product} key={product.id + 2} />
 				))}
 			</div>
 		</section>
